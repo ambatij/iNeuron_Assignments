@@ -1,0 +1,114 @@
+Answer 1: In Computer Programming, High-Level Programming languages are easier and more natural for people to use than a Machine code. Low-Level languages are closer to machine code, which is executed directly by the computer. Since Python is easily readable and resembles Natural language, it is called a High-level language.
+
+Answer 2: In Python, the type of the variable is only determined during the run time, and there is no need to explicitely determine the data type of that variable by the user, hence Python is called, Dynamically typed language.
+
+Answer 3: Pros: 1. Open source language, which doesn't require any activation key to work on it. 2. Less Coding, syntax is very simple and uses common English language, which is more user friendly. 3. Python can run on any OS, and code written on one system can used on another without making any changes.
+Cons: 1. Slower than C++ and C 2. More memory consumption
+
+Answer 4: Python can be used in: Web development, Machine learning, Artificial intelligence, App development, Data Analytics and Visualization, Game development.
+
+Answer 5: Variables: Python variable is a name given to a memory location, it is the basic unit of storage in a program. We do not need to declare a variable before using them or declare their type.
+Declaring a variable: a = 5
+here a is Variable, which has value 5 in it.
+
+Answer 6: input() function can be used to take input from the user in Python.
+Example: user_name = input("Enter username: ")
+print("Username is: ", username)
+
+Answer 7: Default datatype of the value that has been taken as an input using input() function is - STRING
+Even if we enter an integer value, input() function converts it into a string.
+
+Answer 8: Type Casting: Conversion of one data type into another is known as Type casting.
+int() - converts into an integer number
+float() - converts into a float number
+str() - converts into a string data type.
+
+Answer 9: Yes, we can take more than one input from single input() function, using split() function.
+Example: a,b = input("Enter two values: ").split()
+
+Answer 10: Keywords: A set of reserved words that cannot be used as variable names, function names, or for any other identfiers.
+Example: and, for, else, if, elif
+
+Answer 11: Keywords cannot be used as variables, as the keywords already have a pre defined meaning in the Python library, they cannot be used for variable names or function names
+
+Answer 12: Python indentation: Refers to the adding of white spaces before a statement to a particular block of code. It is a way of telling the Python interpreter that the group of statements belongs to a particular block of code. In C, C++ and Java, we use braces {} to define a block of code, and in Python we use Indentation. By default Python uses 4 spaces as Indentation.
+
+Answer 13: print statement is used to bring the output in Python
+Example: print("Hello World !!!")
+The above statement prints: Hello World !!! which is mentioned in the " "
+
+Answer 14: Operators in Python: Operators are used to perform some operations on the variables and the values in Python.
+We have Arithmetic operators, logical operators, assignment operators, comparision operators
+
+Answer 15: Difference between / and // : 
+/ is used for normal division, which would result in a integer value as the output
+// is used for floor division, which would result in a floor value as the output
+
+Answer 16: 
+x = "iNeuron"
+print(x*3)
+
+Answer 17: 
+x = input("Enter a value: ")
+if(x/2 == 0):
+    print(x, "is an Even Number")
+    else
+    print(x, "is an Odd Number")
+    
+Answer 18: Boolean operators are those which result in True or False
+AND, OR, NOT are boolean operators in Python
+
+Answer 19: 
+1 or 0 : 1
+0 and 0 : 0
+True and False and True : False
+1 or 0  or 0 : 1
+
+Answer 20:
+Equals: a == b
+Not Equals: a!=b
+Less than: a<b
+Less than or equal to: a<=b
+Greater than: a>b
+Greater than or equal to: a>=b
+
+Answer 21: 
+If Keyword: using If keyword, if the condition is true, it prints the statement in the block
+elif keyword: It says, if the previuos conditions are not true, then try this condition
+Else keyword: It catches anything which is not caught by the If or elif
+
+Answer 22:
+age = input("Enter the age of person: ")
+if(age > 18):
+    print("I can Vote")
+else:
+    print("I can't Vote")
+
+Answer 23: 
+numbers: [12, 75, 150, 180, 145, 525, 50]
+result = 0 #initializing the value of result as 0
+for i in numbers:
+    if(i%2==0):
+        result = result + i
+print("Sum of all even numbers in the given list: ", result)
+
+Answer 24: 
+a,b,c = input("Enter 3 numbers: ").split()
+if(a>b and a>c):
+    print(a, " is the greatest of the 3 numbers")
+elif(b>a and b>c):
+    print(b, " is the greatest of the 3 numbers")
+else
+    print(c, " is the greated of the 3 numbers")
+    
+Answer 25:
+numbers = [12, 75, 150, 180, 145, 525, 50]
+for i in numbers:
+    if(i>500):
+        break
+    elif(i> 150):
+        continue
+    elif(i%5 == 0 and i < 150):    
+        print(i)
+print("Good Bye !!!")
+
